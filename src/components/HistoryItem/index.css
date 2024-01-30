@@ -1,0 +1,51 @@
+.history-item {
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.website-details {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-accessed {
+  color: #475569;
+  font: 500 15px 'Roboto';
+  margin-right: 30px;
+}
+
+.history-item-logo {
+  width: 40px;
+}
+
+.not-delete {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.history-item-name {
+  color: #475569;
+  font: 500 14px 'Roboto';
+  margin-left: 10px;
+}
+
+.hitory-item-url {
+  color: #64748b;
+  font: 400 14px 'Roboto';
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.delete-icon {
+  width: 20px;
+}
+
+.delete-button {
+  border-style: none;
+  background-color: #ffffff;
+}
